@@ -1,5 +1,9 @@
 .profile-picture {
     width: 256px;
     height: 256px;
+}
 
+.img {
+    display: block;
+    width: 100%;
 }

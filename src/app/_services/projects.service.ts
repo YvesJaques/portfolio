@@ -13,16 +13,24 @@ export class ProjectsService {
       name: 'Sample Angular Project',
       summary: 'Fullstack web app developed using Angular and Node.JS',
       description: 'Fullstack web app developed using Angular and Node.JS',
-      pictures: [''],
+      pictures: [
+        '../../assets/Image1.png',
+        '../../assets/Image2.png',
+        '../../assets/Image3.png'
+      ],
       tags: [ Tag.ANGULAR, Tag.TYPESCRIPT ],
       projectLink: 'https://github.com/YvesJaques'
     },
     {
       id: 1,
-      name: 'Sample Angular Project',
+      name: 'Sample Javascript Project',
       summary: 'Fullstack web app developed using Angular and Node.JS',
       description: 'Fullstack web app developed using Angular and Node.JS',
-      pictures: [''],
+      pictures: [
+        '../../assets/Image1.png',
+        '../../assets/Image2.png',
+        '../../assets/Image3.png'
+      ],
       tags: [ Tag.JAVASCRIPT, Tag.JAVA ],
       projectLink: 'https://github.com/YvesJaques'
     },
@@ -31,7 +39,11 @@ export class ProjectsService {
       name: 'Sample Angular Project',
       summary: 'Fullstack web app developed using Angular and Node.JS',
       description: 'Fullstack web app developed using Angular and Node.JS',
-      pictures: [''],
+      pictures: [
+        '../../assets/Image1.png',
+        '../../assets/Image2.png',
+        '../../assets/Image3.png'
+      ],
       tags: [ Tag.C, Tag.CSHARP ],
       projectLink: 'https://github.com/YvesJaques'
     },
@@ -40,7 +52,11 @@ export class ProjectsService {
       name: 'Sample Angular Project',
       summary: 'Fullstack web app developed using Angular and Node.JS',
       description: 'Fullstack web app developed using Angular and Node.JS',
-      pictures: [''],
+      pictures: [
+        '../../assets/Image1.png',
+        '../../assets/Image2.png',
+        '../../assets/Image3.png'
+      ],
       tags: [ Tag.GO, Tag.TYPESCRIPT ],
       projectLink: 'https://github.com/YvesJaques'
     },
@@ -49,7 +65,11 @@ export class ProjectsService {
       name: 'Sample Angular Project',
       summary: 'Fullstack web app developed using Angular and Node.JS',
       description: 'Fullstack web app developed using Angular and Node.JS',
-      pictures: [''],
+      pictures: [
+        '../../assets/Image1.png',
+        '../../assets/Image2.png',
+        '../../assets/Image3.png'
+      ],
       tags: [ Tag.ANGULAR, Tag.TYPESCRIPT ],
       projectLink: 'https://github.com/YvesJaques'
     },
