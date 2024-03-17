@@ -7,7 +7,7 @@ import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
-  {path: 'portfolio', component: PortfolioComponent},
+  {path: 'projects', component: PortfolioComponent},
   {path: 'resume', component: ResumeComponent},
   {path: 'contact', component: ContactComponent},
   {path: '**', component: HomeComponent, pathMatch: 'full'},
