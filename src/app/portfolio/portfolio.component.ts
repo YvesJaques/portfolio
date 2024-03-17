@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import { Project } from '../models/projects';
+import { Tag } from '../models/tag';
 
 @Component({
   selector: 'app-portfolio',
@@ -7,31 +9,51 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./portfolio.component.css']
 })
 export class PortfolioComponent {  
-  projects = [
+  projects: Project[] = [
     {
-      projectName: 'Sample Angular Project',
+      id: 1,
+      name: 'Sample Angular Project',
+      summary: 'Fullstack web app developed using Angular and Node.JS',
       description: 'Fullstack web app developed using Angular and Node.JS',
-      link: 'https://github.com/YvesJaques'
+      pictures: [''],
+      tags: [ Tag.ANGULAR, Tag.TYPESCRIPT ],
+      projectLink: 'https://github.com/YvesJaques'
     },
     {
-      projectName: 'Sample Angular Project',
+      id: 2,
+      name: 'Sample Angular Project',
+      summary: 'Fullstack web app developed using Angular and Node.JS',
       description: 'Fullstack web app developed using Angular and Node.JS',
-      link: 'https://github.com/YvesJaques'
+      pictures: [''],
+      tags: [ Tag.JAVASCRIPT, Tag.JAVA ],
+      projectLink: 'https://github.com/YvesJaques'
     },
     {
-      projectName: 'Sample Angular Project',
+      id: 3,
+      name: 'Sample Angular Project',
+      summary: 'Fullstack web app developed using Angular and Node.JS',
       description: 'Fullstack web app developed using Angular and Node.JS',
-      link: 'https://github.com/YvesJaques'
+      pictures: [''],
+      tags: [ Tag.C, Tag.CSHARP ],
+      projectLink: 'https://github.com/YvesJaques'
     },
     {
-      projectName: 'Sample Angular Project',
+      id: 4,
+      name: 'Sample Angular Project',
+      summary: 'Fullstack web app developed using Angular and Node.JS',
       description: 'Fullstack web app developed using Angular and Node.JS',
-      link: 'https://github.com/YvesJaques'
+      pictures: [''],
+      tags: [ Tag.GO, Tag.TYPESCRIPT ],
+      projectLink: 'https://github.com/YvesJaques'
     },
     {
-      projectName: 'Sample Angular Project',
+      id: 5,
+      name: 'Sample Angular Project',
+      summary: 'Fullstack web app developed using Angular and Node.JS',
       description: 'Fullstack web app developed using Angular and Node.JS',
-      link: 'https://github.com/YvesJaques'
+      pictures: [''],
+      tags: [ Tag.ANGULAR, Tag.TYPESCRIPT ],
+      projectLink: 'https://github.com/YvesJaques'
     },
   ]
 
