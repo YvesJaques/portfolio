@@ -14,9 +14,9 @@ export class ProjectsService {
       summary: 'Fullstack web app developed using Angular and Node.JS',
       description: 'Fullstack web app developed using Angular and Node.JS',
       pictures: [
-        '../../assets/Image1.png',
-        '../../assets/Image2.png',
-        '../../assets/Image3.png'
+        '/assets/Image1.png',
+        '/assets/Image2.png',
+        '/assets/Image3.png'
       ],
       tags: [ Tag.ANGULAR, Tag.TYPESCRIPT ],
       projectLink: 'https://github.com/YvesJaques'
@@ -27,9 +27,9 @@ export class ProjectsService {
       summary: 'Fullstack web app developed using Angular and Node.JS',
       description: 'Fullstack web app developed using Angular and Node.JS',
       pictures: [
-        '../../assets/Image1.png',
-        '../../assets/Image2.png',
-        '../../assets/Image3.png'
+        '/assets/Image1.png',
+        '/assets/Image2.png',
+        '/assets/Image3.png'
       ],
       tags: [ Tag.JAVASCRIPT, Tag.JAVA ],
       projectLink: 'https://github.com/YvesJaques'
@@ -40,9 +40,9 @@ export class ProjectsService {
       summary: 'Fullstack web app developed using Angular and Node.JS',
       description: 'Fullstack web app developed using Angular and Node.JS',
       pictures: [
-        '../../assets/Image1.png',
-        '../../assets/Image2.png',
-        '../../assets/Image3.png'
+        '/assets/Image1.png',
+        '/assets/Image2.png',
+        '/assets/Image3.png'
       ],
       tags: [ Tag.C, Tag.CSHARP ],
       projectLink: 'https://github.com/YvesJaques'
@@ -53,9 +53,9 @@ export class ProjectsService {
       summary: 'Fullstack web app developed using Angular and Node.JS',
       description: 'Fullstack web app developed using Angular and Node.JS',
       pictures: [
-        '../../assets/Image1.png',
-        '../../assets/Image2.png',
-        '../../assets/Image3.png'
+        '/assets/Image1.png',
+        '/assets/Image2.png',
+        '/assets/Image3.png'
       ],
       tags: [ Tag.GO, Tag.TYPESCRIPT ],
       projectLink: 'https://github.com/YvesJaques'
@@ -66,9 +66,9 @@ export class ProjectsService {
       summary: 'Fullstack web app developed using Angular and Node.JS',
       description: 'Fullstack web app developed using Angular and Node.JS',
       pictures: [
-        '../../assets/Image1.png',
-        '../../assets/Image2.png',
-        '../../assets/Image3.png'
+        '/assets/Image1.png',
+        '/assets/Image2.png',
+        '/assets/Image3.png'
       ],
       tags: [ Tag.ANGULAR, Tag.TYPESCRIPT ],
       projectLink: 'https://github.com/YvesJaques'
