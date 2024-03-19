@@ -7,6 +7,9 @@ MIT
 @angular/core
 MIT
 
+@angular/forms
+MIT
+
 @angular/platform-browser
 MIT
 
@@ -39,6 +42,9 @@ THE SOFTWARE.
 
 
 ngx-bootstrap/carousel
+MIT
+
+ngx-bootstrap/collapse
 MIT
 
 ngx-bootstrap/component-loader
