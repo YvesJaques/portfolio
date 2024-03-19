@@ -1,5 +1,6 @@
 export class Tag {
     static readonly ANGULAR = new Tag("Angular", "darkred");
+    static readonly NODEJS = new Tag("NodeJS", "green");
     static readonly TYPESCRIPT = new Tag("Typescript", "blue");
     static readonly JAVASCRIPT = new Tag("Javascript", "yellow", "black");
     static readonly JAVA = new Tag("Java", "darkorange");
@@ -15,3 +16,17 @@ export class Tag {
         return this.key
     }
 }
+
+export const Languages = [
+    Tag.TYPESCRIPT,
+    Tag.JAVASCRIPT,
+    Tag.JAVA,
+    Tag.C,
+    Tag.CSHARP,
+    Tag.GO,
+]
+
+export const Frameworks = [
+    Tag.ANGULAR,
+    Tag.NODEJS,
+]

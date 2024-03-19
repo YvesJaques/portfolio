@@ -14,14 +14,13 @@
                         <div class="col">
                             <small><b>Languages:</b></small>
                             <div class="form-group">
-                                <div class="form-check">
-                                    <input
+                                <div class="form-check" *ngFor="let language of languages">
+                                    <input                                        
                                         type="checkbox"
                                         class="form-check-input position-static me-2"
-                                        [(ngModel)]="typescript"
-                                        (change)="Filter()"
+                                        (change)="Filter(language)"
                                         name="Typescript">
-                                    <label class="form-check-label small">Typescript</label>
+                                    <label class="form-check-label small">{{language.toString()}}</label>
                                 </div>
                             </div>
                         </div>
@@ -29,14 +28,13 @@
                         <div class="col">
                             <small><b>Frameworks:</b></small>
                             <div class="form-group">
-                                <div class="form-check">
-                                    <input
+                                <div class="form-check" *ngFor="let framework of frameworks">
+                                    <input                                        
                                         type="checkbox"
                                         class="form-check-input position-static me-2"
-                                        [(ngModel)]="angular"
-                                        (change)="Filter()"
+                                        (change)="Filter(framework)"
                                         name="Typescript">
-                                    <label class="form-check-label small">Angular</label>
+                                    <label class="form-check-label small">{{framework.toString()}}</label>
                                 </div>
                             </div>
                         </div>

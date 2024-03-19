@@ -70,7 +70,7 @@ export class ProjectsService {
         'assets/Image2.png',
         'assets/Image3.png'
       ],
-      tags: [ Tag.ANGULAR, Tag.TYPESCRIPT ],
+      tags: [ Tag.NODEJS, Tag.TYPESCRIPT ],
       projectLink: 'https://github.com/YvesJaques'
     },
   ]
@@ -90,6 +90,8 @@ export class ProjectsService {
   }
 
   GetProjectsByFilter(filterTags: Tag[]) {
+    if(filterTags.length == 0) return this.projects;
+
     let filteredProjects: Project[] = [];
 
     this.projects.forEach(project => {
