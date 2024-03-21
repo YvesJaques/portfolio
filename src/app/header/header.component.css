@@ -2,3 +2,11 @@
     padding: 2rem 1rem;
     background-color: #ece9ef;
 }
+
+.display-4 {
+    color: white;
+}
+
+.header-background {
+    background-image: linear-gradient(to bottom right,black, black, blue);
+}
